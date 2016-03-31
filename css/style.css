@@ -1,0 +1,332 @@
+.container-fluid {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+* {
+	font-family: Arial;
+}
+
+i {
+	color: white;
+}
+
+
+/* --- HEADER --- */
+
+img.cinema {
+	width: 500px;
+	height: 70px;
+	margin-left: 70px;
+}
+
+p.title {
+	color: silver;
+	margin-top: 27px;
+	position: relative;
+	left: 30px;
+}
+
+.header div.buscador {
+	width: 250px;
+	height: 50px;
+	border: 1px solid #BAB6BA;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.header div.buscador:hover {
+	border: 3px solid silver;
+}
+
+.header i {
+	color: silver;
+	font-size: 20px;
+}
+
+.header i:hover {
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.header input {
+	font-size: 18px;
+	border: none;
+	color: grey;
+}
+
+
+/* --- PORTADA --- */
+
+.portada {
+	height: 590px;
+	max-width: 100%;
+  	margin: 0 auto;
+  	padding: 0;
+  	position: relative;
+	overflow: hidden;
+}
+
+.portada img.banner {
+	position: absolute;
+	top: -50px;
+	left: -30px;
+	z-index: 1;
+}
+
+.portada img.icon {
+	width: 100px;
+	position: absolute;
+	z-index: 2;
+	top: 270px;
+	left: 320px;
+}
+
+.lateral {
+	width: 375px;
+	position: absolute;
+	z-index: 3;
+	color: #E2DEE1;
+}
+
+h1.hero {
+	font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+div.age {
+	width: 80px;
+	height: 40px;
+	color: #78ee49;
+	border: 2px solid #78ee49;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 8px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.lateral h4 {
+	display: inline;
+	margin-left: 15px;
+	position: relative;
+	top: 10px;
+	clear: left;
+}
+
+.lateral hr {
+	margin-bottom: 20px;
+	margin-left: 10px;
+	background-color: #E2DEE1;
+	height: 2px;
+}
+
+.lateral table {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+	position: relative;
+	left: 0px;
+}
+
+.lateral tr {
+	float: left;
+}
+
+.lateral h3 {
+	position: relative;
+	margin-left: 0;
+	width: 152px;
+	font-size: 18px;
+}
+
+
+.lateral table td:first-child {
+	text-align: left;
+	table-layout: fixed;
+	margin-bottom: 10px;
+	
+}
+
+.lateral table td:nth-child(2) {
+	text-align: left;
+}
+
+
+
+.lateral p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+div.watch {
+	width: 200px;
+	height: 50px;
+	background-color: #DCA127;
+	color: white;
+	border-radius: 5px;
+	text-align: left;
+	padding-top: 14px;
+	padding-left: 14px;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.tcket {
+	width: 200px;
+	height: 50px;
+	background-color: #C2741F;
+	color: white;
+	border-radius: 5px;
+	text-align: left;
+	padding-top: 14px;
+	padding-left: 14px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/* --- GALELERY --- */
+
+.gallery {
+	background-color: #DCA127;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+.gallery img {
+	width: 180px;
+	height: 250px;
+}
+
+
+
+/* --- TRAILER --- */
+
+.trailer iframe {
+	width: 100%;
+	position: relative;
+	left: 0px;
+	height: 320px;
+}
+
+
+
+/* --- ARTICLE --- */
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article .dont {
+	color: #E2DEE1;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.article h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.article h2 {
+	color: #E2DEE1;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+p.nobold {
+	font-size: 30px;
+	color: #AEA9B3;
+}
+
+div.btickt {
+	width: 250px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #C2741F;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding: 35px;
+}
+
+h3.discount {
+	color: #E2DEE1;
+}
+
+.article h4.fecha {
+	color: #E2DEE1;
+}
+
+.article p {
+	color: #E2DEE1;
+}
+
+.article hr {
+	color: #BAB6BA;
+	margin-bottom: 35px;
+	margin-top: 35px;
+}
+
+.article a {
+	text-decoration: none;
+	color: #EF8F27;
+	font-weight: bold;
+}
+
+
+
+/* --- MOVIES --- */
+
+.movies {
+	padding-bottom: 20px;
+}
+
+.movies img {
+	width: 280px;
+	height: 280px;
+}
+
+
+
+/* --- FOOTER --- */
+
+.footer {
+	background-color: #E2DEE1;
+	color: #AEA9B3;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+.footer p {
+	white-space: pre-line;
+}
+
+.footer p.created {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #AEA9B3;
+	font-size: 12px;
+}
